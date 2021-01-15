@@ -18,12 +18,12 @@ import com.railway.pageobject.RailwayUserRegistration;
 public class UserRegistration extends BaseClass {
 	@Test
 	public void userRegistration() throws InterruptedException, AWTException
-	{
+	{	
+		driver.get(baseUrl);
 		logger.info("Entering the valid data in IRCTC Username");
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 		WebDriverWait wait = new WebDriverWait(driver,50);
 		Robot robot = new Robot();
-		driver.get(baseUrl);
 		RailwayUserRegistration irctc = new RailwayUserRegistration(driver);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"registered_id\"]")));
 		logger.info("Entering the user id for registration");
@@ -68,7 +68,7 @@ public class UserRegistration extends BaseClass {
 		irctc.setAddress(address);
 		logger.info("Entering the Alt Phone Number");
 		irctc.setAltPhoneNumber(altPhoneNumber);
-		//irctc.setRegister();
+		irctc.setRegister();
 		Thread.sleep(10000);
 	}
 	

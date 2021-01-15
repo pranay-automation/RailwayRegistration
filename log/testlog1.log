@@ -44,3 +44,15 @@
 2021-01-15 09:14:23,653 [main] INFO IRCTC Registration - click on the check box to get the otp
 2021-01-15 09:14:23,878 [main] INFO IRCTC Registration - Clicking on the proceed button
 2021-01-15 09:14:24,099 [main] INFO IRCTC Registration - clicking on the sign in 
+2021-01-15 09:37:31,107 [main] INFO IRCTC Registration - Click on the Ok button
+2021-01-15 09:38:14,120 [TestNG-test=Thynkchain test-2] INFO IRCTC Registration - Entering the valid data in IRCTC Username
+2021-01-15 09:39:07,534 [TestNG-test=Thynkchain test-1] INFO IRCTC Registration - Click on the Ok button
+2021-01-15 09:40:45,103 [main] INFO IRCTC Registration - Entering the valid data in IRCTC Username
+2021-01-15 09:40:45,762 [main] INFO IRCTC Registration - Entering the user id for registration
+2021-01-15 09:40:46,661 [main] INFO IRCTC Registration - Click on the check button to verify the user id
+2021-01-15 09:40:47,181 [main] INFO IRCTC Registration - Comparing the User id status
+2021-01-15 09:40:47,549 [main] INFO IRCTC Registration - Entering the Full Name
+2021-01-15 09:40:47,962 [main] INFO IRCTC Registration - Entering the date
+2021-01-15 09:40:48,689 [main] INFO IRCTC Registration - Entering the Phone number
+2021-01-15 09:40:50,090 [main] INFO IRCTC Registration - Entering the email id
+2021-01-15 09:40:50,616 [main] INFO IRCTC Registration - Entering the professional

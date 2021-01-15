@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.railway.testcases.UserLogin">
+      <class name="com.railway.testcases.UserRegistration">
         <methods>
           <include name="launchBrowser"/>
-          <include name="irctcLogin"/>
+          <include name="userRegistration"/>
         </methods>
-      </class> <!-- com.railway.testcases.UserLogin -->
+      </class> <!-- com.railway.testcases.UserRegistration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

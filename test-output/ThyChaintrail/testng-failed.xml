@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ThyChaintrail]" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="2" name="Thynkchain test(failed)" parallel="classes">
+    <classes>
+      <class name="com.railway.testcases.UserLogin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="irctcLogin"/>
+        </methods>
+      </class> <!-- com.railway.testcases.UserLogin -->
+      <class name="com.railway.testcases.UserRegistration">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="userRegistration"/>
+        </methods>
+      </class> <!-- com.railway.testcases.UserRegistration -->
+    </classes>
+  </test> <!-- Thynkchain test(failed) -->
+</suite> <!-- Failed suite [ThyChaintrail] -->
