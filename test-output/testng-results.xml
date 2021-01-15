@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61822" started-at="2021-01-15T03:43:22Z" finished-at="2021-01-15T03:44:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61822" started-at="2021-01-15T03:43:22Z" finished-at="2021-01-15T03:44:24Z">
+      <class name="com.railway.testcases.UserLogin">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.railway.testcases.UserLogin@71423665]" name="launchBrowser" is-config="true" duration-ms="7144" started-at="2021-01-15T03:43:22Z" finished-at="2021-01-15T03:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="irctcLogin()[pri:0, instance:com.railway.testcases.UserLogin@71423665]" name="irctcLogin" duration-ms="54597" started-at="2021-01-15T03:43:29Z" finished-at="2021-01-15T03:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irctcLogin -->
+      </class> <!-- com.railway.testcases.UserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
